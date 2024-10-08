@@ -57,7 +57,7 @@ h3 {
     display: grid;
     justify-items: center;
     width: 100%;
-    row-gap: 25px;
+    row-gap: 30px;
     grid-template-columns: 140px 85px 140px;
     grid-template-rows: .25fr;
     letter-spacing: 2px;
@@ -69,6 +69,9 @@ h3 {
 }
 #house {
     grid-column: 3/3;
+}
+p {
+    font-size: 22px;
 }
 #tri {
     z-index: -1;
@@ -138,7 +141,10 @@ h3 {
     letter-spacing: 3px;
 }
 .showResults{
-    column-gap: 95px;
+    column-gap: 90px;
+}
+.play {
+    column-gap: 30px;
 }
 #reset {
     background: #fff;
@@ -200,7 +206,7 @@ h3 {
     display: none;
 }
 @media screen and (max-width: 614px) {
-    .showResults{
+    .showResults, .play{
         column-gap: 10px;
     }
     #results {

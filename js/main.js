@@ -61,6 +61,7 @@ function shoot(housePicked){
         bg.classList.add('hide');
         housePicked.classList.remove('hide');
         results.classList.remove('hide');
+        game.classList.remove('play');
         game.classList.add('showResults');
         result();
     }, 800);    
