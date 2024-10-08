@@ -4,7 +4,7 @@ let start = true
 , housePicked = document.querySelectorAll('.house .card')[random]
 , user, computer, winner;
 
-const game = document.getElementById('game')
+const game = document.getElementById('gameDiv')
 , triangle = document.getElementById('tri')
 , rock = document.getElementsByClassName('rock')[0]
 , paper = document.getElementsByClassName('paper')[0]
