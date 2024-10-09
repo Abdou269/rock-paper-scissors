@@ -4,6 +4,7 @@
     padding: 0;
 }
 body {
+    flex-direction: column;
     height: 100vh;
     color: white;
     font-weight: 600;
@@ -140,11 +141,11 @@ p {
     grid-row: 1/1;
     letter-spacing: 3px;
 }
-.showResults{
-    column-gap: 90px;
-}
 .play {
     column-gap: 30px;
+}
+.showResults{
+    column-gap: 90px;
 }
 #reset {
     background: #fff;
@@ -204,6 +205,13 @@ p {
 }
 .hide {
     display: none;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
 @media screen and (max-width: 614px) {
     .showResults, .play{
