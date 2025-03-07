@@ -6,7 +6,7 @@
 }
 body {
     flex-direction: column;
-    height: 100vh;
+    height: 100svh;
     color: white;
     font-weight: 600;
     text-transform: uppercase;
