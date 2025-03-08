@@ -246,7 +246,7 @@ p {
     }
     #rules div {
         position: absolute;
-        height: 88%;
+        height: 80%;
         flex-direction: column;
     }
     #rulesBtn {
